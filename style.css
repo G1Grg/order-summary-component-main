@@ -1,0 +1,73 @@
+
+/* mobile view */
+body{
+    background-image: url(images/pattern-background-mobile.svg);
+    background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-color: hsl(225, 100%, 94%);
+	margin: 10% auto;
+}
+
+div {
+	width: 335px;
+	margin: 0 auto;
+	border-radius: 30px;
+	background-color: white;
+	text-align: center;
+	overflow: hidden;
+	box-shadow: 0 5px 9px rgba(0, 0, 0, 0.39);
+}
+
+/* order summary section */
+
+div .sec_order_summary{
+    width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+
+/* section plan content */
+div .sec_plan{
+    background-color: hsl(223, 70%, 96%); 
+	margin:10px auto ;
+	width: 80%;
+	border-radius: 15px;
+	border-spacing: 10px 0;
+	display: inline-flex;
+	padding: 10px 0 10px 30px;
+}
+
+.sec_buttons .btnProcessPayment{
+    display: block;
+	width: fit-content;
+	text-decoration: none;
+	background-color: hsl(245, 75%, 52%);
+	color: white;
+	padding: 15px 70px;
+	margin: 25px auto;
+	border-radius: 10px;
+	box-shadow: 0 5px 9px black;
+}
+
+.sec_buttons .btnCancelOrder{
+    display: block;
+	text-decoration: none;
+	color: rgba(0, 0, 0, 0.5);
+	font-weight: bold;
+	width: fit-content;
+	margin: 0 auto;
+	padding-bottom: 20px;
+}
+
+
+/* desktop view */
+
+@media screen and (min-width: 376){
+	body{
+		background-image: url(images/pattern-background-desktop.svg);
+	}
+}
